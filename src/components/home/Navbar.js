@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <nav className=''>
-        <div className='py-6 px-6 md:px-12 md:flex justify-between'>
+        <div className='py-6 px-6 justify-between items-center md:flex md:py-2 md:px-12 '>
             <div className='flex justify-between'>
                 <h1 className='fontNavbar text-2xl md:text-4xl'>Darwan</h1>
 
@@ -22,13 +22,15 @@ function Navbar() {
                     <svg xmlns="http://www.w3.org/2000/svg" className={`${Open ? 'block' : 'hidden'} md:hidden`} onClick={handleOpneChange} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
             </div>
             
-            <div className={`${Open ? 'block' : 'hidden'} md:text-center md:flex`}>
-                <h4 className='md:mx-6'>Tentang Saya</h4>
-                <h4 className='md:mx-6'>Skill</h4>
-            </div>
-
-            <div className={`${Open ? 'block' : 'hidden'} md:text-center md:flex`}>
-                <button className='bg-blue-400 w-28 h-7 rounded-full'>Reach Me.</button>
+            <div className={`${Open ? 'block' : 'hidden'} py-2 flex-col justify-between w-full md:flex-row md:flex md:items-center`}>
+                <div className="flex flex-col md:flex-row mx-auto">
+                    <a href="/psikolog" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">About Me</a>
+                    <a href="/#feedback" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Skill</a>
+                    <a href="/tentangkami" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Project</a>
+                </div>
+                <div className="py-3">
+                    <button className="rounded-full text-white bg-blue-400 w-36 text-md font-semibold fontdeskripsiNavbar hover:shadow-md md:h-9 md:w-36">Reach Me.</button>
+                </div>
             </div>
         </div>
     </nav>
