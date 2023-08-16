@@ -15,7 +15,7 @@ function Navbar() {
     <nav className=''>
         <div className='py-6 px-6 justify-between items-center md:flex md:py-2 md:px-12 '>
             <div className='flex justify-between'>
-                <h1 className='fontNavbar text-2xl md:text-4xl'>Darwan</h1>
+                <h1 className='fontNavbar text-2xl md:text-4xl'>Darwan.</h1>
 
                 {/* Svg */}
                     <svg xmlns="http://www.w3.org/2000/svg" className={`${Open ? 'hidden' : 'block'} md:hidden`} onClick={handleOpneChange} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
