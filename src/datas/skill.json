@@ -11,19 +11,29 @@
             "level": "Advanced"
         },
         {
-            "imageUrl": "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+            "imageUrl": "https://www.logiciels.pro/wp-content/uploads/2021/05/tailwind-css-avis-prix-alternatives-logiciel.webp",
             "nameSkill": "Tailwind",
             "level": "Advanced"
         },
         {
-            "imageUrl": "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
             "nameSkill": "ReactJs",
             "level": "Newbie"
+        },
+        {
+            "imageUrl": "https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png",
+            "nameSkill": "NodeJs",
+            "level": "Newbie"
+        },
+        {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
+            "nameSkill": "PHP",
+            "level": "Advanced"
         }
     ],
     "tools": [
         {
-            "imageUrl": "https://cdn-icons-png.flaticon.com/128/1051/1051277.png",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
             "nameTools": "Github",
             "level": "Advanced"
         }
