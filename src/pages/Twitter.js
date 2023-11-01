@@ -1,4 +1,4 @@
-import imagestress from "../assets/img/home/stress.jpeg"
+import imagestress from "../assets/img/home/stress.jpg"
 export default function Twitter() {
   return (
     <div>
