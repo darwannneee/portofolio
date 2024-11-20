@@ -13,7 +13,7 @@ function Jumbotron() {
     <h1 class="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-white pr-5 text-blue-400 text-xl md:text-2xl fontTitle">BackEnd Developer</h1>
   </div>
         <h1 className='fontJudulJumbotron text-4xl md:text-6xl'>Hi, <br />I'm Darwan</h1>
-        <smal className='fontDeskripsi text-xs/loose md:text-base/loose'>Hi, my name is Darwan, I'm currently studying S1 Informatics Engineering. For now i'm living in the City of Bandung.</smal>
+        <smal className='fontDeskripsi text-xs/loose md:text-base/loose'>Hi, my name is Darwan, I'm currently studying S1 Informatics Engineering and fulltime Work at Ecoute Agency. For now i'm living in the City of Bandung.</smal>
 
         <div className='flex mt-2'>
           <img src={GithubLogo} className='w-4 md:w-5' alt='Github Logo'></img>
