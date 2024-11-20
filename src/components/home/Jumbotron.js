@@ -7,7 +7,7 @@ import PotoProfile from "../../assets/img/home/darwan.jpg"
 function Jumbotron() {
   
   return (
-    <div className='mx-8 my-6 md:mx-20 md:my-12 md:grid md:grid-cols-2'>
+    <div className='mx-8 my-6 md:mx-20 md:my-12 md:grid md:grid-cols-2' id='aboutMe'>
       <div>
       <div class="w-max">
     <h1 class="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-white pr-5 text-blue-400 text-xl md:text-2xl fontTitle">BackEnd Developer</h1>

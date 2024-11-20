@@ -24,9 +24,9 @@ function Navbar() {
             
             <div className={`${Open ? 'block' : 'hidden'} py-2 flex-col justify-between w-full md:flex-row md:flex md:items-center`}>
                 <div className="flex flex-col md:flex-row mx-auto">
-                    <a href="/psikolog" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">About Me</a>
-                    <a href="/#skill" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Skill</a>
-                    <a href="/tentangkami" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Project</a>
+                    <a href="#aboutMe" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">About Me</a>
+                    <a href="#skill" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Skill</a>
+                    <a href="#project" className="text-black block py-2 md:text-1xl md:px-16 fontdeskripsiNavbar">Project</a>
                 </div>
                 <div className="py-3">
                     <button className="rounded-full text-white bg-blue-400 w-36 text-md font-semibold fontdeskripsiNavbar hover:shadow-md md:h-9 md:w-36">Reach Me.</button>

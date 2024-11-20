@@ -14,7 +14,7 @@ const Skill = () => {
   }
 
   return (
-  <div className='mt-16'>
+  <div className='mt-16' id='skill'>
    <div className='w-56 h-8 border-2 border-blue-400 text-center mx-auto rounded-full grid grid-cols-2 fontDeskripsi'>
         <div className={`${!Skill ? 'bg-blue-400 text-white' : 'bg-white text-black'} rounded-full`}>
             <button className='text-sm/loose' onClick={setSkillFalse}>{'< /> Tech Stack '}</button>

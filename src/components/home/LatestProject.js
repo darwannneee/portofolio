@@ -2,7 +2,7 @@ import React from 'react'
 
 const LatestProject = () => {
   return (
-   <div className='mt-10'>
+   <div className='mt-10' id='project'>
       <h1 className='text-blue-400 fontJudulJumbotron text-center text-2xl'>Latest Project</h1>
 
       <h1 className='text-xs/loose fontDeskripsi mt-2 text-center'>Designed and built a visually appealing website for a creative agency, focusing on an intuitive user experience and striking visuals. </h1>
