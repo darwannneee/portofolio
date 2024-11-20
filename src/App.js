@@ -7,7 +7,6 @@ function App() {
     <Router>
         <Routes>
           <Route path='/' Component={Home}></Route>
-          <Route path='/twitter' Component={Twitter}></Route>
         </Routes>
     </Router>
     

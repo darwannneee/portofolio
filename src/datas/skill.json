@@ -36,6 +36,11 @@
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
             "nameTools": "Github",
             "level": "Advanced"
+        },
+        {
+            "imageUrl": "https://miro.medium.com/v2/resize:fit:400/1*hX_l9M_WJkaupAwEwB7mZQ.png",
+            "nameTools": "Git",
+            "level": "Advanced"
         }
     ]
 }
